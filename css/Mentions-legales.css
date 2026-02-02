@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Michroma', sans-serif;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+    background-color: rgb(68, 42, 90) ;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+div.titre{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    background-color:  #0F1115;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Michroma', sans-serif;
+    
+    
+}
+
+div.propriétaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+h2.editeur{
+    font-size: 30px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+
+p.propriétaire,.statut,.adresse,.e-mail{
+    font-size: 16px;
+    font-family: 'Michroma', sans-serif;
+    color: white;
+}
+
+div.hébergeur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+h2.hébergement{
+    font-size: 30px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+
+p.hébergeur-hébergeur, .AP ,.adresse-hébergeur,.num-hébergeur,.lien-hébergeur{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-size: 16px;
+}
+
+div.Propriété{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+h2.propriété{
+    font-size:30px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+p.intellectuelle{
+    font-size: 16px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+
+div.Activité{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-family: 'Michroma', sans-serif;
+}
+
+h2.portfolio{
+    font-size: 30px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+
+p.activité,.professionnelle{
+    font-size: 16px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+
+div.Cookies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-family: 'Michroma', sans-serif;
+}
+
+h2.Gestion{
+    font-size: 30px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+
+p.Gestion-Cookies{
+    font-size: 16px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+
+div.Description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-family: 'Michroma', sans-serif;
+}
+
+h2.site{
+    font-size: 30px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+}
+
+p.Description-site{
+    font-size: 16px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+   
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    background-color: #0F1115;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 10px;
+    box-sizing: border-box;
+}
+
+a.legales{
+    color:white;
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 666px) {
+    div.propriétaire,
+    div.hébergeur,
+    div.Propriété,
+    div.Activité,
+    div.Cookies,
+    div.Description {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2.editeur,
+    h2.hébergement,
+    h2.propriété,
+    h2.portfolio,
+    h2.Gestion,
+    h2.site {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+     footer{
+        z-index: 1005;
+    }
+}
