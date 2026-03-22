@@ -75,9 +75,7 @@ Le site est optimisé pour :
 - 📱 Tablette (600px - 900px)
 - 💻 Desktop (> 900px)
 
-## 📸 Aperçu
 
-*[Tu peux ajouter des screenshots ici]*
 
 ## 💡 À propos
 
